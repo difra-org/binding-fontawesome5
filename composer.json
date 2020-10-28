@@ -1,0 +1,35 @@
+{
+    "name": "difra/fontawesome5",
+    "description": "Font Awesome 5 bindings for Difra framework",
+    "type": "library",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Eduard Kutuev",
+            "email": "ed@napych.com"
+        }
+    ],
+    "require": {
+        "components/font-awesome": "5.*"
+    },
+    "dist": {
+        "url": "https://github.com/difra-org/fontawesome5/archive/1.0.0.zip",
+        "type": "zip"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:difra-org/fontawesome5.git"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "main.php"
+        ],
+        "classmap": [
+        ],
+        "psr-4": {
+            "Difra\\Fontawesome5\\": "src"
+        }
+    }
+}
