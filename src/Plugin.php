@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Difra\Fontawesome5;
 
 use Difra\Envi\Action;
@@ -14,7 +16,7 @@ class Plugin extends \Difra\Plugin
     /**
      * @inheritdoc
      */
-    protected function init()
+    protected function init(): void
     {
         \Difra\Events\System::getInstance(Event::EVENT_RENDER_INIT)->registerHandler([static::class, 'addHTML']);
     }
