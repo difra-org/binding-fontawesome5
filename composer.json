@@ -13,13 +13,13 @@
         "components/font-awesome": "5.*"
     },
     "dist": {
-        "url": "https://github.com/difra-org/binding-fontawesome5/archive/refs/tags/8.0.0.zip",
+        "url": "https://github.com/difra-org/binding-fontawesome5/archive/refs/tags/8.0.1.zip",
         "type": "zip"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:difra-org/bindings-fontawesome5.git"
+            "url": "git@github.com:difra-org/binding-fontawesome5.git"
         }
     ],
     "autoload": {
